@@ -1,0 +1,10 @@
+# PDF to Word 转换器 - 依赖清单
+
+# 核心转换库
+pdf2docx>=0.5.8
+
+# GUI 拖拽支持
+tkinterdnd2>=0.3.0
+
+# 打包工具
+pyinstaller>=6.0.0
