@@ -23,7 +23,7 @@ jobs:
         cache: 'pip'
         
     - name: Cache pip packages
-      uses: cache@v4
+      uses: actions/cache@v4
       with:
         path: ~\AppData\Local\pip\Cache
         key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
